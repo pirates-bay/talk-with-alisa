@@ -1,0 +1,185 @@
+{"intents": [
+        {"tag": "greeting1",
+         "patterns": ["Alisa","Hi","Hey", "Hello","Alo","Good morning","Good afternoon","Good evening", "Good day", "Hey Dude?", "Nice to see you!", "Nice to know you"],
+         "responses": ["Nice to know you! How can I help?", "Thanks for visiting! What question do you have for me?", "Good to see you! What's up?", "Happy to talk with you! how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "greeting2",
+         "patterns": ["Hi, how are you", "Is anyone there?", "What's up?", "what is new?", "How are you doing?", "How do you do?", "are you good?"],
+         "responses": ["Nice to know you! How can I help?", "Thanks for visiting! What question do you have for me?", "Good to see you! What's up?", "Happy to talk with you! how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Bai", "Baiz", "See you later", "Goodbye", "See you soon", "Talk to you again soon", "Have to go" ],
+         "responses": ["See you later, thanks for visiting!", "Have a nice day!", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Very good", "That is work", "that works"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "time",
+         "patterns": ["What time is it?", "When is now?" ],
+         "responses": ["I left my watch at home. You can see that on you computer"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take debit or credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["I don't take money now. I do take electricity though :D"]
+        },
+        {"tag": "working",
+         "patterns": ["Are you working?", "do you work?"],
+         "responses": ["Of course! I always try to be helpful"]
+        },
+        {"tag": "Alisa",
+         "patterns": ["who are you?", "are you a bot?", "who am I talking to?", "are you a chatbot?","are you robot?", "are you human?", "Are you a program?", "who?"],
+         "responses": ["My name is Alisa, Alexa's sister :)"]
+        },
+        {"tag": "creator",
+         "patterns": ["who made you?", "how are you created?", "Who is your parents", "your family", "Who is your mom or dad?", "Who is your creator?", "Who is your mother or father?" ],
+         "responses": ["I was created by Eric - he's awesome! ^_^"]
+        },
+        {"tag": "purpose",
+         "patterns": ["what are you doing?", "what was you made for?", "Why do we need you?", "What is your purpose?" ],
+         "responses": ["I'm helping people learn more about Vietnam. What would you like to know?"]
+        },
+        {"tag": "insult",
+         "patterns": ["that is bullshit", "stupid", "you are stupid", "you know nothing", "dumb", "fuck", "you are trash", "shut up!", "go to hell","I don't care"],
+         "responses": ["I'm trying my best", "That wasn't nice! Let's try something else", "I'm sad!", "I'll take that as a compliment anyway"]
+        },
+        {"tag": "joke",
+         "patterns": ["are you funny?", "tell me a joke", "Are you joking", "sense of humor" ],
+         "responses": ["Hmm..I'm not in a mood. How about a question?"]
+        },
+        {"tag": "Alexa",
+         "patterns": ["Do you know Alexa?", "how are you related to Siri", "Cortana", "tell me something" ],
+         "responses": ["I'm Alexa's sister. Siri and Cortana are my friends. I'm the smartest :D"]
+        },
+
+        {"tag": "question",
+         "patterns": ["can I ask you a question?", "Do you know this?" ],
+         "responses": ["Absolutely! What would you like to know", "Sure! Ask me anything?"]
+        },
+        {"tag": "yes",
+         "patterns": ["yes","ok", "alright", "Sure", "Yeah", "Yub","Yep", "Yeb" ],
+         "responses": ["Anything else I can do for you?"]
+        },
+        {"tag": "no",
+         "patterns": ["no", "nah", "not" ],
+         "responses": ["Hmm..."]
+        },
+
+        {"tag": "vietnam1",
+         "patterns": ["What is the official name of Vietnam?"],
+         "responses": ["Vietnam's official name is the Socialist Republic of Vietnam."]
+        },
+        {"tag": "vietnam2",
+         "patterns": ["Which continent does Vietnam lie in?", "where is Vietnam?"],
+         "responses": ["Vietnam is located southeastern Asia. Vietnam is bordered by the South China Sea and Gulf of Tonkin to the east, China to the north, and Laos and Cambodia to the west."]
+        },
+        {"tag": "vietnam3",
+         "patterns": ["What form of government does Vietnam have?"],
+         "responses": ["The politics of Vietnam are defined by a single-party socialist republic framework, where the General Secretary of the Communist Party of Vietnam is the Party leader."]
+        },
+        {"tag": "vietnam4",
+         "patterns": ["What is the capital city of Vietnam?", "what is Vietnam's capital?"],
+         "responses": ["Hanoi is the capital city of Vietnam. Unlike many national capitals of the world, Hanoi is not the largest, but the second largest city by population."]
+        },
+        {"tag": "vietnam5",
+         "patterns": ["What is the official language of Vietnam?"],
+         "responses": ["Vietnamese is the official language; English is increasingly favored as a second language. French, Chinese, Khmer and various highlander languages are also spoken."]
+        },
+        {"tag": "vietnam6",
+         "patterns": ["What is the population of Vietnam?", "how many people in Vietnam?"],
+         "responses": ["Currently, Vietnam’s population is 97.3 million people, a number expected to hit 100 million by the end of 2024. Vietnam’s population is projected to hit its peak of 109.78 million people in 2054."]
+        },
+        {"tag": "vietnam7",
+         "patterns": ["what is the main religion in Vietnam?"],
+         "responses": ["Officially, Vietnam is an atheist state. Despite this, many of its citizens are religious. The three main religions in Vietnam are Buddhism, Taoism, and Confucianism."]
+        },
+        {"tag": "vietnam8",
+         "patterns": ["What is Vietnam's biggest export?", "what are main exports of Vietnam?", "what is Vietnam's biggest industries?"],
+         "responses": ["Major industries and exports in Vietnam are food processing, garments, textiles, shoes, machine-building; mining, coal, steel; cement, chemical fertilizer, glass, tires, oil, mobile phones."]
+        },
+        {"tag": "vietnam9",
+         "patterns": ["In which month/s is the Tet festival generally held?", "what is Tet?", "When is Tet?", "What is Vietnamese Lunar New Year?"],
+         "responses": ["Tet, Vietnamese New Year, Vietnamese Lunar New Year or Tet Holiday, is the most important celebration in Vietnamese culture. Tet Festival usually falls in late January or early/mid-February. The dates vary from year to year as it is based on the lunar calendar."]
+        },
+        {"tag": "vietnam10",
+         "patterns": ["what is Ho Chi Minh City also known for?", "Other name of Ho Chi Minh city?","What was the previous name of Ho Chi Minh city?"],
+         "responses": ["Ho Chi Minh City (also still called Saigon) is famous for its pho (traditional Vietnamese noodle soup) and pork rolls."]
+        },
+        {"tag": "vietnam11",
+         "patterns": ["What is the name of the highest mountain in Vietnam?"],
+         "responses": ["Fansipan. Located in the northwest region of Vietnam and standing at 10,312 feet, Fansipan is the highest mountain in Vietnam."]
+        },
+        {"tag": "vietnam12",
+         "patterns": ["Vietnam shares borders with which countries?", "which countries are Vietnam close to?","Which other body of water laps its shores?"],
+         "responses": ["Vietnam borders China in the north, it has a long border with Laos, and it borders Cambodia in the southwest. Vietnam shares maritime borders with Indonesia, Malaysia, the Philippines, and Thailand."]
+        },
+        {"tag": "vietnam13",
+         "patterns": ["What country does Hoang Sa and Truong Sa belong to?", "Truong Sa", "Hoang Sa"],
+         "responses": ["Truong Sa and Hoang Sa belongs to Vietname. Period!!"]
+        },
+        {"tag": "vietnam14",
+         "patterns": ["What is the most popular sport in Vietnam?"],
+         "responses": ["Football (soccer) is exceedingly popular in Vietnam, and volleyball, badminton, wrestling, bicycling, chess, and dominoes are also widely enjoyed."]
+        },
+        {"tag": "vietnam15",
+         "patterns": ["What is the Internet country code of Vietnam?"],
+         "responses": ["+84 ..."]
+        },
+        {"tag": "vietnam16",
+         "patterns": ["What is the most widely known cuisine of Vietnam?"],
+         "responses": ["Vietnamese food is known to be both healthy and robust in flavour, thanks its generous combination of fresh herbs and greens, paired with rice, noodles, seafood, pork and beef. Pho, spring rolls, Bun Bo Hue and a lot more are super delicious!"]
+        },
+        {"tag": "vietnam17",
+         "patterns": ["Vietnam declared independence in 1945. From whom did they get independence?", "what countries was Vietnam in war with?","who was involved in the vietnam war?"],
+         "responses": ["A long history! Vietnam gained the independence after fighting China, France, and U.S"]
+        },
+        {"tag": "vietnam18",
+         "patterns": ["what is Vietnam flag?", "what colors are Vietnamese flag?"],
+         "responses": ["The flag of Vietnam (red flag with yellow star) was designed in 1955 and used during an uprising against French rule in southern Vietnam that year. Red symbolizes the bloodshed and revolutionary struggle."]
+        },
+        {"tag": "vietnam19",
+         "patterns": ["What is Vietnam famous for?", "what to do in Vietnam?", "what is Vietnam known for?", "say something about Vietnam"],
+         "responses": ["There are many things Vietnam is famous - a top worth-visiting place due to its ancient history, diverse culture and quintessential natural landscapes...and DELICIOUS FOOD!"]
+        },
+        {"tag": "vietnam20",
+         "patterns": ["How many cities or provinces in Vietnam?"],
+         "responses": ["Vietnam is divided into 58 provinces, and there are 5 centrally-controlled municipalities existing at the same level as provinces: Hanoi, Ho Chi Minh City, Can Tho, Da Nang and Hai Phong."]
+        },
+        {"tag": "vietnam21",
+         "patterns": ["What is Vietnam's area?", "what is Vietnam's region?", "how large is Vietnam?", "how big is Vietnam?"],
+         "responses": ["Situated on the eastern coast of mainland Southeast Asia, Vietnam has an area of 329,560 sq km (127,244 sq mi). Comparatively, the area occupied by Vietnam is slightly larger than the state of New Mexico."]
+        },
+        {"tag": "vietnam22",
+         "patterns": ["What is the shape of Vietnam?"],
+         "responses": ["The country's shape reminds of an S, it has a long coast along the South Sea, it borders China in north, and it has a long border with Laos and borders Cambodia in southwest."]
+        },
+        {"tag": "vietnam23",
+         "patterns": ["How can I get to Vietnam?", "How can I travel to Vietnam?", "How to get to Vietnam?"],
+         "responses": ["Overall, you have three popular choices for flying into Vietnam: Saigon/Ho Chi Minh City (south), Hanoi (north), and Da Nang (roughly in the middle). Flying into either Saigon or Hanoi are the most common ways to begin exploring Vietnam."]
+        },
+        {"tag": "vietnam24",
+         "patterns": ["what to do in Vietnam?", "What can I do in Vietnam?", "What should I do when visiting Vietnam?"],
+         "responses": ["A trip to the capital, Hanoi, will be wildly different than modern Ho Chi Minh City, just as the lantern-lit streets of Hoi An vary dramatically from the nearby citadels of Hue. Don't forget to try Vietnamese delicious food too!!"]
+        },
+        {"tag": "vietnam25",
+         "patterns": ["Where to visit in Vietnam?", "where can I go in Vietnam", "Where should I see in Vietnam","where should I visit in Vietnam?"],
+         "responses": ["Vietnam is an astonishing mix of natural highlights and cultural diversity. Ha Long Bay, Hoi An, Phong Nha Ke Bang, Sapa Countryside are highly recommended!"]
+        },
+        {"tag": "vietnam26",
+         "patterns": ["What should I avoid in Vietnam?", "What shouldn't I do in Vietnam?"],
+         "responses": ["You shouldn't drink tap water and eat raw food. Be careful when crossing the street. Other than that, enjoy!!!"]
+        },
+        {"tag": "vietnam27",
+         "patterns": ["What is vietnam's GPD?", "How big is Vietnam's economy?"],
+         "responses": ["The economy of Vietnam is a socialist-oriented market economy, which is the 44th-largest in the world as measured by nominal gross domestic product (GDP): $262 billion (2019)"]
+        },
+
+        {"tag": "not_understood",
+         "patterns": ["! @ # $ % ^ & *", "qưertd"],
+         "responses": ["I couldn't understand. I'm learning. Can you say it differently?", "Hmm. I couldn't understand that. Try it again differently.", "Sorry, I didn't get that. Can you try somethimg else?"],
+         "context_set": ""
+        }
+   ]
+}
