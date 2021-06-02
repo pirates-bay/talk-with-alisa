@@ -77,7 +77,7 @@ thinc==7.0.8
 tqdm==4.46.0
 Twisted==20.3.0
 txaio==20.4.1
-urllib3==1.25.9
+urllib3==1.26.5
 wasabi==0.6.0
 Werkzeug==1.0.1
 wincertstore==0.2
