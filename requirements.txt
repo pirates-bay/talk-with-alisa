@@ -75,7 +75,7 @@ termcolor==1.1.0
 tflearn==0.3.2
 thinc==7.0.8
 tqdm==4.46.0
-Twisted==20.3.0
+Twisted==22.2.0
 txaio==20.4.1
 urllib3==1.25.9
 wasabi==0.6.0
